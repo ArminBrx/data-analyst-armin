@@ -18,6 +18,8 @@ Key features of the dataset include:
 •	Years of Study: The number of years the student has been studying at UCW.
 •	Enrollment Status: Indicates whether the student is currently enrolled or not.
 
+(https://github.com/arminbrx/data-analyst-armin/main/images/OfficeofThePresident.png)
+
 Methodology:  
 1.	Data Collection and Preparation:
 o	Load the dataset using data analysis tools (e.g., Python, Excel).
