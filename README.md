@@ -41,25 +41,33 @@ o	The relation between years of study and the likelihood of submitting complaint
 
 6.	Recommendations:
 •	Provide actionable recommendations based on the findings to support the Office of the President in:
-o	Improving complaint resolution processes for both enrolled and non-enrolled students.
-o	Addressing any patterns in complaint behaviour (e.g., gender or program-specific issues).
-o	Developing targeted interventions for the most frequent categories of complaints.
+  o	Improving complaint resolution processes for both enrolled and non-enrolled students.
+  o	Addressing any patterns in complaint behaviour (e.g., gender or program-specific issues).
+  o	Developing targeted interventions for the most frequent categories of complaints.
+
 Tools and Technologies:
 •	Excel for data analysis.
 •	Data visualization tools (Tableau or Power BI) for creating charts and dashboards.
+
 Deliverables:
 •	A detailed report summarizing the methods, findings, and recommendations.
 •	Visualizations and dashboards to present key insights clearly.
 •	A presentation for stakeholders to communicate important findings and suggestions for future action.
+
 This descriptive analysis project aims to provide a comprehensive understanding of complaint patterns among students at UCW, enabling the Office of the President to enhance the complaint resolution process and improve overall student satisfaction. 
 
 
 # Data Quality Control  
+
 Project Description: Data Quality Control Initiative at University Canada West (UCW)  
+
 Project Title: Implementation of Data Quality Control Measures Using AWS Glue and Glue DataBrew at UCW  
+
 Objective: The primary objective of this project is to establish a comprehensive Data Quality Control (DQC) framework at University Canada West (UCW) using AWS Glue and Glue DataBrew. This framework ensures the accuracy, completeness, consistency, and reliability of student data, particularly in the context of complaint submissions. The aim is to enhance the quality of data being analyzed and improve decision-making in the university’s administrative processes.
+
 Background:  
 As UCW processes growing volumes of student data related to complaints, enrollment, and academic performance, issues with data quality—such as inaccuracies, duplicates, and inconsistent formats—have surfaced. These issues could lead to incorrect reporting and suboptimal administrative actions. This project aims to implement robust data quality control measures using AWS Glue and Glue DataBrew to mitigate these risks and ensure high-quality data for analysis and decision-making.
+
 Scope:  
 The project focuses on the following key areas using AWS Glue and Glue DataBrew:
 •	Data Profiling: Analyzing existing datasets to assess data quality.
@@ -67,6 +75,7 @@ The project focuses on the following key areas using AWS Glue and Glue DataBrew:
 •	Data Validation: Implementing validation rules to ensure data integrity before analysis.
 •	Monitoring and Reporting: Setting up ongoing monitoring processes and dashboards to track data quality metrics over time.
 •	Training and Awareness: Developing resources to educate staff on maintaining data quality best practices.
+
 Methodology:  
 1.	Current State Assessment:
 o	Conduct an in-depth analysis of existing student complaint data, identifying quality issues such as missing values, duplicates, and incorrect formats.
@@ -94,17 +103,21 @@ o	Develop training materials and conduct workshops to educate university staff o
 o	Promote best practices in data entry, maintenance, and governance, fostering a culture of accountability for maintaining data quality.
 8.	Feedback Mechanism:
 o	Establish a feedback loop with data users (administrative and academic staff) to continually improve data quality processes based on practical experience and observed results.
+
 Tools and Technologies:
 •	AWS Glue: For cataloging, profiling, and processing data.
 •	AWS Glue DataBrew: For visual data preparation, profiling, and automated data cleansing workflows.
 •	Python/SQL: For custom validation scripts and data cleansing tasks.
 •	Data visualization tools (Tableau or Power BI): For monitoring and reporting data quality metrics.
+
 Deliverables:
 •	A comprehensive Data Quality Control Plan detailing processes, metrics, and responsibilities.
 •	Documentation of Data Quality Metrics and KPIs being tracked.
 •	Cleaned and validated datasets ready for analysis and reporting.
 •	Training resources, including materials and workshops to educate staff on data quality best practices.
 •	A Monitoring Dashboard visualizing data quality metrics in real-time using AWS Glue DataBrew.
+
 Timeline:  
 •	Expected completion of the project: 6-8 weeks, including assessment, implementation, training, and monitoring setup.
+
 This Data Quality Control initiative using AWS Glue and Glue DataBrew empowers UCW to enhance the integrity and reliability of its student complaint and enrollment data. By improving data quality, UCW can make more informed decisions, improve operational efficiency, and ensure regulatory compliance where necessary.
