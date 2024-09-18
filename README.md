@@ -1,6 +1,6 @@
 # data-analyst-armin
 
-Descriptive Analysis  
+# Descriptive Analysis  
 Project Description: Descriptive Analysis of Student Complaint Patterns  
 Project Title: Understanding Complaint Patterns of Students at University Canada West (UCW)  
 Objective: The primary goal of this project is to conduct a descriptive analysis of student complaint data at University Canada West (UCW). Through this analysis, we aim to summarize key characteristics of complaints submitted by students, understand trends in complaint submission based on enrollment status, and generate insights that can help inform decision-making in the Office of the President regarding complaint resolution.
@@ -52,7 +52,9 @@ Deliverables:
 •	Visualizations and dashboards to present key insights clearly.
 •	A presentation for stakeholders to communicate important findings and suggestions for future action.
 This descriptive analysis project aims to provide a comprehensive understanding of complaint patterns among students at UCW, enabling the Office of the President to enhance the complaint resolution process and improve overall student satisfaction. 
-Data Quality Control  
+
+
+# Data Quality Control  
 Project Description: Data Quality Control Initiative at University Canada West (UCW)  
 Project Title: Implementation of Data Quality Control Measures Using AWS Glue and Glue DataBrew at UCW  
 Objective: The primary objective of this project is to establish a comprehensive Data Quality Control (DQC) framework at University Canada West (UCW) using AWS Glue and Glue DataBrew. This framework ensures the accuracy, completeness, consistency, and reliability of student data, particularly in the context of complaint submissions. The aim is to enhance the quality of data being analyzed and improve decision-making in the university’s administrative processes.
