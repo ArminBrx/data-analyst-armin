@@ -5,7 +5,9 @@ Project Description: Descriptive Analysis of Student Complaint Patterns
 Project Title: Understanding Complaint Patterns of Students at University Canada West (UCW)  
 Objective: The primary goal of this project is to conduct a descriptive analysis of student complaint data at University Canada West (UCW). Through this analysis, we aim to summarize key characteristics of complaints submitted by students, understand trends in complaint submission based on enrollment status, and generate insights that can help inform decision-making in the Office of the President regarding complaint resolution.
 Dataset:  
-The dataset includes information about students at UCW, particularly focusing on their enrollment status in relation to the complaints they have submitted. Key features of the dataset include:
+The dataset includes information about students at UCW, particularly focusing on their enrollment status in relation to the complaints they have submitted. 
+
+Key features of the dataset include:
 •	Enrollment ID: Unique identifier for each student's enrollment.
 •	Student ID: Identification number for each student.
 •	First Name: The student's first name.
@@ -15,6 +17,7 @@ The dataset includes information about students at UCW, particularly focusing on
 •	Program: The academic program in which the student is enrolled.
 •	Years of Study: The number of years the student has been studying at UCW.
 •	Enrollment Status: Indicates whether the student is currently enrolled or not.
+
 Methodology:  
 1.	Data Collection and Preparation:
 o	Load the dataset using data analysis tools (e.g., Python, Excel).
