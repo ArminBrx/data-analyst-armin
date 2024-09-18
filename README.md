@@ -18,7 +18,7 @@ Key features of the dataset include:
 •	Years of Study: The number of years the student has been studying at UCW.
 •	Enrollment Status: Indicates whether the student is currently enrolled or not.
 
-([https://github.com/arminbrx/data-analyst-armin/main/images/OfficeofThePresident.png](https://github.com/ArminBrx/data-analyst-armin/blob/main/Images/OfficeofThePresident.png))
+[(https://github.com/ArminBrx/data-analyst-armin/blob/main/Images/OfficeofThePresident.png)](https://github.com/ArminBrx/data-analyst-armin/blob/main/Images/OfficeofThePresident.png)
 
 Methodology:  
 1.	Data Collection and Preparation:
@@ -142,6 +142,8 @@ The dataset includes call center data from the City of Vancouver’s 3-1-1 Conta
 •	Average Speed of Answer (ASA): The average time it takes to answer a call.
 •	Service Level: The percentage of calls answered within a pre-defined time target.
 •	BI_ID: A unique identifier for the business intelligence system.
+
+([https://github.com/ArminBrx/data-analyst-armin/blob/main/Images/CityofVancouver.png](https://github.com/ArminBrx/data-analyst-armin/blob/main/Images/CityofVancouver.png))
 
 Methodology:  
 1.	Data Collection and Preparation:
