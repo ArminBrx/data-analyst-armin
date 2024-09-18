@@ -1,6 +1,6 @@
 # data-analyst-armin
 
-# Descriptive Analysis  
+# Descriptive Analysis For Office of The President
 Project Description: Descriptive Analysis of Student Complaint Patterns  
 Project Title: Understanding Complaint Patterns of Students at University Canada West (UCW)  
 Objective: The primary goal of this project is to conduct a descriptive analysis of student complaint data at University Canada West (UCW). Through this analysis, we aim to summarize key characteristics of complaints submitted by students, understand trends in complaint submission based on enrollment status, and generate insights that can help inform decision-making in the Office of the President regarding complaint resolution.
@@ -57,7 +57,7 @@ Deliverables:
 This descriptive analysis project aims to provide a comprehensive understanding of complaint patterns among students at UCW, enabling the Office of the President to enhance the complaint resolution process and improve overall student satisfaction. 
 
 
-# Data Quality Control  
+# Data Quality Control For Office of The President
 
 Project Description: Data Quality Control Initiative at University Canada West (UCW)  
 
@@ -121,3 +121,133 @@ Timeline:
 •	Expected completion of the project: 6-8 weeks, including assessment, implementation, training, and monitoring setup.
 
 This Data Quality Control initiative using AWS Glue and Glue DataBrew empowers UCW to enhance the integrity and reliability of its student complaint and enrollment data. By improving data quality, UCW can make more informed decisions, improve operational efficiency, and ensure regulatory compliance where necessary.
+
+
+# Descriptive Analysis City of Vancouver
+Project Description: Descriptive Analysis of 3-1-1 Contact Center Call Data  
+Project Title: Understanding Call Handling and Average Call Answer Time at the City of Vancouver’s 3-1-1 Contact Center  
+Objective: The primary objective of this project is to conduct a descriptive analysis of call data from the City of Vancouver’s 3-1-1 Contact Center. This analysis aims to summarize key call center performance metrics such as the average speed of answer (ASA), service level, and call handling trends for 2023 and 2024. The insights from this analysis will help inform strategies to improve customer service efficiency and response times.
+
+Dataset:  
+The dataset includes call center data from the City of Vancouver’s 3-1-1 Contact Center, focusing on call volume and performance metrics over 2023 and 2024. Key features of the dataset include:
+•	Date: The date when the data was recorded.
+•	Calls Offered: Total number of calls received by the call center.
+•	Calls Handled: Number of calls successfully answered by the call center staff.
+•	Calls Abandoned: Number of calls abandoned by callers before being answered.
+•	Average Speed of Answer (ASA): The average time it takes to answer a call.
+•	Service Level: The percentage of calls answered within a pre-defined time target.
+•	BI_ID: A unique identifier for the business intelligence system.
+
+Methodology:  
+1.	Data Collection and Preparation:
+•	Load the dataset using data analysis tools (e.g., Python, Excel).
+•	Perform data cleaning to address any missing values, correct data types, and remove duplicates.
+•	Filter the dataset to focus on key periods for comparison between 2023 and 2024.
+
+2.	Descriptive Statistics:
+•	Calculate summary statistics for key variables, including:
+o	Average speed of answer (ASA) for 2023 and 2024.
+o	Total number of calls offered, handled, and abandoned.
+o	Service level percentage for each year.
+
+3.	Data Visualization:
+•	Create visual representations to illustrate findings:
+o	Line charts showing the average speed of answer (ASA) trends for 2023 and 2024.
+o	Bar charts showing the number of calls offered, handled, and abandoned for each month.
+o	Pie charts representing the proportion of calls handled versus abandoned.
+
+4.	Segmentation by Year:
+•	Analyze call performance trends for 2023 and 2024 to identify significant changes in call handling and average speed of answer.
+•	Further break down the analysis by months to identify peak periods or changes in service levels.
+
+5.	Insights and Findings:
+•	Summarize the insights derived from the analysis, highlighting:
+o	Trends in average speed of answer for 2023 vs. 2024.
+o	The relationship between call volume and service level performance.
+o	Patterns in call abandonment and their potential impact on customer satisfaction.
+
+6.	Recommendations:
+•	Provide actionable recommendations based on the findings to support the City of Vancouver in:
+o	Reducing call abandonment rates and improving average speed of answer.
+o	Enhancing service level performance during peak periods.
+o	Optimizing call center staffing to handle fluctuating call volumes efficiently.
+
+Tools and Technologies:
+•	Python (Pandas, Matplotlib, Seaborn) or Excel for data analysis.
+•	Data visualization tools (Tableau or Power BI) for creating charts and dashboards.
+
+Deliverables:
+•	A detailed report summarizing the methods, findings, and recommendations.
+•	Visualizations and dashboards to present key insights clearly.
+•	A presentation for stakeholders to communicate important findings and suggestions for future action.
+
+This descriptive analysis project focuses on understanding call handling trends and the average speed of answer at the City of Vancouver’s 3-1-1 Contact Center, helping improve service delivery and customer satisfaction.
+
+# Data Quality Control for City of Vancouver
+Project Description: Data Quality Control Initiative at the City of Vancouver’s 3-1-1 Contact Center  
+Project Title: Implementation of Data Quality Control Measures Using AWS Glue and Glue DataBrew at the City of Vancouver’s 3-1-1 Contact Center  
+Objective: The primary objective of this project is to establish a comprehensive Data Quality Control (DQC) framework for the City of Vancouver’s 3-1-1 Contact Center. This initiative aims to ensure the accuracy, completeness, and consistency of call data, particularly focusing on metrics like the average speed of answer, service level, and call handling. The goal is to enhance the quality of data being used for performance analysis and decision-making.
+
+Background:  
+The City of Vancouver’s 3-1-1 Contact Center handles thousands of calls daily, making it critical to maintain high-quality data for analyzing performance and ensuring customer satisfaction. Issues such as data inaccuracies, incomplete records, and inconsistencies in call metrics can affect the reliability of the insights derived from the data. This project utilizes AWS Glue and Glue DataBrew to implement a robust data quality control system that will mitigate these issues and ensure reliable data.
+
+Scope:  
+The project focuses on the following key areas using AWS Glue and Glue DataBrew:
+•	Data Profiling: Assessing the quality of call center data.
+•	Data Cleansing: Developing automated processes to eliminate inaccuracies, handle missing data, and standardize formats.
+•	Data Validation: Implementing validation rules to ensure data integrity across key metrics.
+•	Monitoring and Reporting: Establishing ongoing monitoring processes to track data quality in real time.
+•	Training and Awareness: Educating staff on maintaining data quality best practices.
+
+Methodology:  
+1.	Current State Assessment:
+•	Conduct an analysis of the existing 3-1-1 call center data, identifying issues like missing call data, inconsistent formats, and duplicates.
+•	Use AWS Glue’s data cataloging and profiling tools to review key datasets (calls offered, handled, abandoned, and ASA).
+
+2.	Data Profiling:
+•	Leverage AWS Glue DataBrew to assess data quality, focusing on key aspects such as completeness, validity, consistency, and accuracy.
+•	Document the findings, highlighting datasets requiring immediate data quality improvement.
+
+3.	Establish Data Quality Metrics:
+•	Define clear data quality metrics and KPIs for the project:
+o	Error rates for missing or incorrect call data.
+o	Duplicate records within the call logs.
+o	Consistency of average speed of answer (ASA) and service level data.
+
+4.	Data Cleansing Processes:
+•	Use AWS Glue DataBrew to create automated workflows for data cleansing:
+o	Remove duplicates, correct incorrect values, and standardize formats (e.g., date formats, call metrics).
+o	Impute missing values for critical fields like ASA and service level to ensure data completeness.
+
+5.	Validation Rules and Procedures:
+•	Set up validation rules within AWS Glue to verify the integrity of new call data entries.
+•	Establish data entry guidelines for call center staff to promote consistency in logging key call metrics.
+
+6.	Monitoring and Reporting:
+•	Implement real-time data quality monitoring using AWS Glue DataBrew dashboards to track deviations in key metrics.
+•	Schedule regular reports on data quality performance, highlighting trends and issues in call data accuracy.
+
+7.	Training and Best Practices:
+•	Develop training materials to educate call center and data management staff on data quality principles and the use of AWS Glue DataBrew.
+•	Promote best practices in data entry, processing, and monitoring, fostering a culture of accountability for data quality.
+
+8.	Feedback Mechanism:
+•	Establish a feedback loop with call center managers and staff to continually improve data quality processes based on user input and data analysis outcomes.
+
+Tools and Technologies:
+•	AWS Glue: For cataloging, profiling, and processing call data.
+•	AWS Glue DataBrew: For visual data preparation, profiling, and automated data cleansing workflows.
+•	Python/SQL: For custom validation scripts and data cleansing tasks.
+•	Data visualization tools (Tableau or Power BI): For monitoring and reporting data quality metrics.
+
+Deliverables:
+•	A comprehensive Data Quality Control Plan outlining processes, metrics, and responsibilities.
+•	Documentation of Data Quality Metrics and KPIs being tracked.
+•	Cleaned and validated call center datasets ready for analysis.
+•	Training resources, including materials and workshops for staff education on data quality practices.
+•	A Monitoring Dashboard visualizing data quality metrics in real-time.
+
+Timeline:  
+•	Expected completion of the project: 6-8 weeks, including assessment, implementation, training, and monitoring setup.
+
+This Data Quality Control initiative using AWS Glue and Glue DataBrew ensures that the City of Vancouver’s 3-1-1 Contact Center maintains high-quality data for performance analysis, leading to improved decision-making and better customer service outcomes.
